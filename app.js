@@ -13,7 +13,7 @@ import {IFCLoader} from "web-ifc-three/IFCLoader";
 // Sets up the IFC loading
 
 const ifcLoader = new IFCLoader();
-ifcLoader.load("ARQ_271023.ifc", (ifcModel) =>
+ifcLoader.load("EST_271023.ifc", (ifcModel) =>
   scene.add(ifcModel)
 );
 
